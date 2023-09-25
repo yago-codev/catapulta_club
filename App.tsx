@@ -23,7 +23,6 @@ function App() {
               fontSize: 22,
               fontWeight: '700',
               color: '#020203',
-              lineHeight: 25,
             },
             tabBarIcon: () => (
               <FontAwesomeIcon icon={faHome} color="#281F67" size={25} />
