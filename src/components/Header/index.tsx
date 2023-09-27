@@ -1,11 +1,13 @@
 import React, {FC} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-const Header: FC = () => {
+import {Props} from './types';
+
+const Header: FC<Props> = props => {
   return (
     <View>
-      <Text style={style.Title}>Olá</Text>
-      <Text style={style.Title}>Yago</Text>
+      <Text style={style.Title}>{props.title}</Text>
+      <Text style={style.Title}>{props.name}</Text>
     </View>
   );
 };

@@ -6,7 +6,7 @@ import Header from './src/components/Header';
 function App() {
   return (
     <SafeAreaView style={style.App}>
-      <Header />
+      <Header title="Welcome to RN!" name="Yago" />
     </SafeAreaView>
   );
 }
